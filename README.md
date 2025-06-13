@@ -20,3 +20,5 @@ And yes THIS DOES WORK FOR DEDICATED IP ADDRESSES!!!! :D
 # FAQ :
 
 Yes this does work for Private Internet Access DEDICATED IP address ranges YAY!
+
+Yes this works with GL.iNet routers and openwrt routers with vpn for wireguard
