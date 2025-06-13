@@ -4,6 +4,7 @@
 :: Thats it this will grab the wireguard info used by the PIA app so you can use it in Openwrt wireguard vpns etc where you need to manually put a wireguard config file
 
 :: Needs to use a PIA DNS server especially for dedicated IP
+:: https://helpdesk.privateinternetaccess.com/kb/articles/using-pia-dns-in-custom-configurations
 :: 10.0.0.242 - PIA DEFAULT DNS server
 :: 10.0.0.243 - PIA DEFAULT DNS+Streaming
 :: 10.0.0.244 - PIA DEFAULT DNS+MACE
