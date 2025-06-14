@@ -24,6 +24,13 @@ set root_path="%~dp0"
 :: Windows PIA app installation directory
 set DIRECTORY=C:\Program Files\Private Internet Access
 
+if not exist "%DIRECTORY%" (
+echo Private Internet Access not installed please install it first and try again.
+echo Ensure your PIA settings use wireguard Protocol
+pause
+exit /b
+)
+
 :: This is where PIA stores its wireguard config but it wipes the file so you can not view it.
 set PIA="%DIRECTORY%\data\w*.conf"
 
